@@ -1,0 +1,432 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-escritorio-moderno-vector-diseno-azul-geometrico_53876-135923.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    scroll-behavior: smooth; 
+}
+       
+
+header {
+    background-color:;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+}
+
+header:hover {
+    background-color: rgba(85, 85, 85, 0.8); 
+}
+       
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2%;
+    transition: transform 0.3s ease; 
+}
+       
+nav ul li:hover {
+    transform: scale(1.1); 
+}
+        
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+        
+nav ul li a:hover {
+    color: #ffd700; 
+}
+
+#logo {
+    flex: 1;
+    text-align: center;
+    position: static;
+    transform: perspective(500px)
+               translateY(8px)
+               rotateY('45deg');
+}
+
+#logo img {
+    width: auto;
+    height: 420px;
+    border-radius: 20px;
+}
+
+.logo-equipo {
+    flex: 1;
+    text-align: center;
+}
+
+.logo-equipo img {
+    width: auto;/* Ajusta el tamaño máximo de los logos según sea necesario */
+    height: 200px;
+    object-fit: cover;
+} 
+
+#foto {
+    width: auto;
+    height: 480px;
+    flex: 1;
+    text-align: center;
+    position: static;
+    background-color: rgba(17, 196, 219, 0.856);
+    border:  groove 1em gold;
+    border-radius: 40px 10px;
+    transform: perspective(500px)
+               translateY(8px)
+               rotateY(25deg);
+}
+
+main {
+    padding: 2%;
+}
+        
+section {
+    margin-bottom: 3%;
+    background-color: ; 
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: ;
+    transition: transform 0.3s ease; 
+}
+        
+section:hover {
+    transform: translateY(-5px); 
+}
+        
+section h2 {
+    font-size: xx-large;
+    color: white;
+    border-bottom: ;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+        
+section p {
+    font-size: x-large;
+    color: white;
+}
+        
+footer {
+    background-color: ; 
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+    bottom: 0;
+    width: 100%;
+    position: static;
+}
+
+#twitter, #facebook{
+    font-size: 2em;
+    background-color: #18191f;
+    color: #fff;
+    box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080, 2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080;
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
+}
+
+#facebook{
+    animation-delay: 0.7s;
+}
+
+@keyframes animate{
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.partido {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.información {
+    display: ;
+}
+
+details {
+    margin-bottom: 10px;
+}
+
+summary {
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details[open] summary {
+    color: blue;
+}
+        
+.contact-info i {
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+th {
+    background-color: ;
+}
+
+.field {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.field label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.field input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #FF1C1C; /* Rojo Pokéball */
+    color: white;
+    border: 2px solid #000; /* Borde negro para contrastar */
+    border-radius: 25px; /* Forma circular */
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo retro */
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Efecto al pasar el ratón */
+input[type="submit"]:hover {
+    background-color: #FFDE00; /* Amarillo Pikachu */
+    color: black; /* Contraste de texto */
+    transform: scale(1.1); /* Agrandar ligeramente */
+}
+
+/* Efecto al presionar el botón */
+input[type="submit"]:active {
+    background-color: #3B4CCA; /* Azul característico del logo */
+    transform: scale(0.95); /* Reducir un poco al hacer clic */
+}
+
+.w {
+    background-color:deepskyblue;
+}
+
+.l {
+    background-color:#FF1C1C;
+}
+
+.d {
+    background-color: lightgrey;
+}
+
+@media (max-width: 720px) {
+    body {
+        font-family: Arial, sans-serif;
+        font-size: large;
+    }
+
+    .información {
+        display: ;
+        background: ;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: ;
+        width: 100%;
+        height: 50%;
+        text-align: left;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    #logo {
+        flex: 1;
+        text-align: center;
+        position: ;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+        transform: perspective(500px)
+                   translateY(8px)
+                   rotateY(10deg);
+    }
+
+    #logo img {
+        width: auto;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    #foto {
+        width: auto;
+        height: 260px;
+        flex: 1;
+        text-align: center;
+        position: static;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+    }
+}
+
+/* Estilos para pantallas de entre 601 y 1200 píxeles de ancho */
+@media (min-width: 721px) and (max-width: 1200px) {
+    body {
+        font-family: Arial, sans-serif;
+        font-size: large;
+    }
+
+    .información {
+        display: flex;
+        background: ;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        height: 70%;
+        text-align: left;
+        gap: 10px;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    #logo {
+        flex: 1;
+        height: 390px;
+        text-align: center;
+        position: ;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+        transform: perspective(500px)
+                   translateY(8px)
+                   rotateY(15deg);
+    }
+
+    #logo img {
+        width: auto;
+        height: 380px;
+        border-radius: 20px;
+    }
+
+    #foto {
+        width: auto;
+        height: 440px;
+        flex: 1;
+        text-align: center;
+        position: static;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+    }
+}
+
+/* Estilos para pantallas de más de 1200 píxeles de ancho */
+@media (min-width: 1201px) {
+    body {
+        font-family: Arial, sans-serif;
+        font-size: x-large;
+    }
+
+    .información {
+        display: flex;
+        background: ;
+        padding: 50px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 70%;
+        height: 90%;
+        text-align: left;
+        gap: 10px;
+    }
+
+    .container {
+        width: 90%;
+        height: 90%;
+        text-align: left;
+    }
+
+    #logo {
+        flex: 1;
+        height: 460px;
+        text-align: center;
+        position: ;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+        transform: perspective(500px)
+                   translateY(8px)
+                   rotateY(15deg);
+    }
+
+    #logo img {
+        width: auto;
+        height: 450px;
+        border-radius: 20px;
+    }
+
+    #foto {
+        width: auto;
+        height: 480px;
+        flex: 1;
+        text-align: center;
+        position: static;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+    }
+}
