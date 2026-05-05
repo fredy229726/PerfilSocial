@@ -112,6 +112,8 @@ section h2 {
     border-bottom: ;
     padding-bottom: 1%;
     margin-bottom: 2%;
+    font-style: italic;
+    font-family: "Press Start 2P";
 }
         
 section p {
@@ -187,7 +189,7 @@ summary {
 }
 
 details[open] summary {
-    color: blue;
+    color: rgb(54, 185, 205);
 }
         
 .contact-info i {
@@ -265,6 +267,171 @@ input[type="submit"]:active {
 .d {
     background-color: lightgrey;
 }
+
+
+.detalle1{
+    background-color: ;
+    border: 1px solid rgb(250, 7, 7);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(255, 0, 0);
+}
+
+.detalle1 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle1 > summary::before {
+    content: "🎧";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle1[open] > summary::before {
+    content: "🎮";
+}
+
+.detalle2{
+    background-color: ;
+    border: 1px solid rgba(16, 167, 237, 0.923);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(54, 185, 205);
+}
+
+.detalle2 summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle2 summary::before {
+    content: "✌️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle2[open] summary::before {
+    content: "🤞";
+}
+
+.detalle3{
+    background-color: ;
+}
+
+.detalle3 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle3 > summary::before {
+    content: "📺";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle3[open] > summary::before {
+    content: "🐉";
+}
+
+.detalle4{
+    background-color: ;
+}
+
+.detalle4 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle4 > summary::before {
+    content: "🎧";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle4[open] > summary::before {
+    content: "🎶";
+}
+
+.detalle5{
+    background-color: ;
+}
+
+.detalle5 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle5 > summary::before {
+    content: "🕹️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle5[open] > summary::before {
+    content: "🎮";
+}
+
+.detalle6{
+    background-color: ;
+}
+
+.detalle6 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle6 > summary::before {
+    content: "🎲";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle6[open] > summary::before {
+    content: "♟️";
+}
+
+.detalle7{
+    background-color: ;
+}
+
+.detalle7 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle7 > summary::before {
+    content: "🎬";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle7[open] > summary::before {
+    content: "🎞️";
+}
+
+
 
 @media (max-width: 720px) {
     body {
