@@ -7,7 +7,7 @@ function tocarMusica(idAudio, idBoton) {
 
   document.querySelectorAll('audio').forEach(el => {
     el.pause();
-    // el.currentTime = 0; //
+    el.currentTime = 0;
   });
 
   document.querySelectorAll('.boton-neon').forEach(btn => {
