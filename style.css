@@ -509,6 +509,48 @@ input[type="submit"]:active {
     content: "🧠";
 }
 
+.detalle11{
+    background-color: ;
+}
+
+.detalle11 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle11 > summary::before {
+    content: "🎧";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle11[open] > summary::before {
+    content: "💿";
+}
+
+
+.boton-neon {
+  background-color: #1a1a1a;
+  color: #00ffff;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px #00ffff;
+  transition: all 0.3s ease;
+}
+
+.boton-neon:hover {
+  background-color: #00ffff;
+  color: #1a1a1a;
+  box-shadow: 0px 0px 20px 5px #00ffff;
+}
+
 
 @media (max-width: 720px) {
     body {
