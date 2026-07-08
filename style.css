@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://img.freepik.com/vector-gratis/fondo-escritorio-moderno-vector-diseno-azul-geometrico_53876-135923.jpg');
+    background-image: url('https://imgs.search.brave.com/OoEa-XcKTJKRQ4GkhnZK5rbhZcC8Zx44LviHWbs_JQU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvYmxh/Y2stbmVvbi1oZC01/ZHozOGZmdHNzbDB1/cmJwLmpwZw');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -600,6 +600,12 @@ input[type="submit"]:active {
     body {
         font-family: Arial, sans-serif;
         font-size: large;
+        background-image: url('https://imgs.search.brave.com/WXgUn1ru4IQxfQLQFbQ_jhw1xKOETJmFZQNVh-4jjkA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZlL2Qx/LzM1L2ZlZDEzNTQw/OWZiZDZjMmJjODQ4/NDc1MWEwZmQ0NmRk/LmpwZw');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        scroll-behavior: smooth; 
     }
 
     .información {
