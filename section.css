@@ -1,0 +1,31 @@
+main {
+    padding: 2%;
+}
+        
+section {
+    margin-bottom: 3%;
+    background-color: ; 
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: ;
+    transition: transform 0.3s ease; 
+}
+        
+section:hover {
+    transform: translateY(-5px); 
+}
+        
+section h2 {
+    font-size: xx-large;
+    color: rgb(145, 215, 225);
+    border-bottom: ;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    font-style: italic;
+    font-family: "Press Start 2P";
+}
+        
+section p {
+    font-size: x-large;
+    color: white;
+}

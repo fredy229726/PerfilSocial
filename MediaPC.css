@@ -1,0 +1,60 @@
+/* Estilos para pantallas de PC */
+@media (min-width: 1201px) {
+    body {
+        font-family: Arial, sans-serif;
+        font-size: x-large;
+    }
+
+    .información {
+        display: flex;
+        background: ;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        gap: 10px;
+    }
+
+    #container {
+        width: 60%;
+        height: auto;
+        text-align: left;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #logo {
+        width: 30%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: ;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+        transform: perspective(500px)
+                   translateY(8px)
+                   rotateY(15deg);
+    }
+
+    #logo img {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #foto {
+        width: auto;
+        height: 480px;
+        flex: 1;
+        text-align: center;
+        position: static;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+    }
+}

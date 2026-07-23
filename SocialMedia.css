@@ -1,0 +1,42 @@
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin-top: 35px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ffffff;
+    background: transparent;
+    border: 3px solid #ff00ff; 
+    box-shadow: 0 0 15px #ff00ff, inset 0 0 10px #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+    transition: all 0.4s ease-in-out; 
+}
+
+.social-btn:hover {
+    color: #fff; 
+    transform: scale(1.1) translateY(-3px); 
+}
+
+
+.instagram:hover {
+    background: #e1306c; 
+    border-color: #e1306c;
+    box-shadow: 0 0 25px #e1306c, 0 0 50px #e1306c;
+}
+
+.facebook:hover {
+    background: #1877f2;
+    border-color: #1877f2;
+    box-shadow: 0 0 25px #1877f2, 0 0 50px #1877f2;
+}

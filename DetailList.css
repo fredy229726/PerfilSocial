@@ -1,0 +1,298 @@
+details {
+    margin-bottom: 10px;
+}
+
+summary {
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details[open] summary {
+    color: rgb(54, 185, 205);
+}
+
+.detalle1{
+    background-color: ;
+    border: 1px solid rgb(250, 7, 7);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(255, 0, 0);
+}
+
+.detalle1 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle1 > summary::before {
+    content: "🎧";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle1[open] > summary::before {
+    content: "🎮";
+}
+
+.detalle2{
+    background-color: ;
+    border: 1px solid rgba(16, 167, 237, 0.923);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(54, 185, 205);
+}
+
+.detalle2 summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle2 summary::before {
+    content: "✌️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle2[open] summary::before {
+    content: "🤞";
+}
+
+.detalle3{
+    background-color: ;
+}
+
+.detalle3 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle3 > summary::before {
+    content: "📺";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle3[open] > summary::before {
+    content: "🐉";
+}
+
+.detalle4{
+    background-color: ;
+}
+
+.detalle4 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle4 > summary::before {
+    content: "🎧";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle4[open] > summary::before {
+    content: "🎶";
+}
+
+.detalle5{
+    background-color: ;
+}
+
+.detalle5 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle5 > summary::before {
+    content: "🕹️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle5[open] > summary::before {
+    content: "🎮";
+}
+
+.detalle6{
+    background-color: ;
+}
+
+.detalle6 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle6 > summary::before {
+    content: "🎲";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle6[open] > summary::before {
+    content: "♟️";
+}
+
+.detalle7{
+    background-color: ;
+}
+
+.detalle7 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle7 > summary::before {
+    content: "🎬";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle7[open] > summary::before {
+    content: "🎞️";
+}
+
+.detalle8{
+    background-color: ;
+    border: 1px solid rgba(44, 246, 17, 0.959);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(26, 249, 1);
+}
+
+.detalle8 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle8 > summary::before {
+    content: "🐢";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle8[open] > summary::before {
+    content: "🐶";
+}
+
+.detalle9{
+    background-color: ;
+    border: 1px solid rgba(243, 128, 5, 0.923);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(250, 142, 1);
+}
+
+.detalle9 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle9 > summary::before {
+    content: "🍔";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle9[open] > summary::before {
+    content: "🍨";
+}
+
+.detalle10{
+    background-color: ;
+    border: 1px solid rgba(239, 216, 8, 0.958);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(250, 221, 1);
+}
+
+.detalle10 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle10 > summary::before {
+    content: "⛪";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle10[open] > summary::before {
+    content: "🧠";
+}
+
+.detalle11{
+    background-color: ;
+}
+
+.detalle11 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle11 > summary::before {
+    content: "🎧";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle11[open] > summary::before {
+    content: "💿";
+}
+
+.detalle12{
+    background-color: ;
+}
+
+.detalle12 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle12 > summary::before {
+    content: "⚠️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle12[open] > summary::before {
+    content: "⚠️";
+}

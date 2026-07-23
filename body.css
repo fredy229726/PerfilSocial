@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://imgs.search.brave.com/OoEa-XcKTJKRQ4GkhnZK5rbhZcC8Zx44LviHWbs_JQU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvYmxh/Y2stbmVvbi1oZC01/ZHozOGZmdHNzbDB1/cmJwLmpwZw');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    scroll-behavior: smooth; 
+}
