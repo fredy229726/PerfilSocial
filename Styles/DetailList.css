@@ -14,7 +14,7 @@ details[open] summary {
 }
 
 .detalle1{
-    background-color: ;
+    background-color: rgba(255,255,255,0.1);
     border: 1px solid rgb(250, 7, 7);
     padding: 10px;
     border-radius: 5px;
@@ -40,7 +40,7 @@ details[open] summary {
 }
 
 .detalle2{
-    background-color: ;
+    background-color: rgba(255,255,255,0.1);
     border: 1px solid rgba(16, 167, 237, 0.923);
     padding: 10px;
     border-radius: 5px;
@@ -176,7 +176,7 @@ details[open] summary {
 }
 
 .detalle8{
-    background-color: ;
+    background-color: rgba(255,255,255,0.1);
     border: 1px solid rgba(44, 246, 17, 0.959);
     padding: 10px;
     border-radius: 5px;
@@ -202,7 +202,7 @@ details[open] summary {
 }
 
 .detalle9{
-    background-color: ;
+    background-color: rgba(255,255,255,0.1);
     border: 1px solid rgba(243, 128, 5, 0.923);
     padding: 10px;
     border-radius: 5px;
@@ -228,7 +228,7 @@ details[open] summary {
 }
 
 .detalle10{
-    background-color: ;
+    background-color: rgba(255,255,255,0.1);
     border: 1px solid rgba(239, 216, 8, 0.958);
     padding: 10px;
     border-radius: 5px;
@@ -295,4 +295,335 @@ details[open] summary {
 
 .detalle12[open] > summary::before {
     content: "⚠️";
+}
+
+.detalle13{
+    background-color: ;
+}
+
+.detalle13 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle13 > summary::before {
+    content: "🔮";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle13[open] > summary::before {
+    content: "🔮";
+}
+
+.detalle14{
+    background-color: ;
+}
+
+.detalle14 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle14 > summary::before {
+    content: "🎭";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle14[open] > summary::before {
+    content: "🎭";
+}
+
+
+.detalle15{
+    background-color: ;
+}
+
+.detalle15 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle15 > summary::before {
+    content: "⚗️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle15[open] > summary::before {
+    content: "⚗️";
+}
+
+.detalle16{
+    background-color: ;
+}
+
+.detalle16 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle16 > summary::before {
+    content: "👻";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle16[open] > summary::before {
+    content: "👻";
+}
+
+.detalle17{
+    background-color: ;
+}
+
+.detalle17 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle17 > summary::before {
+    content: "🤖";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle17[open] > summary::before {
+    content: "🤖";
+}
+
+.detalle18{
+    background-color: ;
+}
+
+.detalle18 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle18 > summary::before {
+    content: "🚶‍➡️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle18[open] > summary::before {
+    content: "🚶‍➡️";
+}
+
+.detalle19{
+    background-color: ;
+}
+
+.detalle19 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle19 > summary::before {
+    content: "📚";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle19[open] > summary::before {
+    content: "📚";
+}
+
+.detalle20{
+    background-color: ;
+}
+
+.detalle20 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle20 > summary::before {
+    content: "📚";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle20[open] > summary::before {
+    content: "💕";
+}
+
+.detalle21{
+    background-color: ;
+}
+
+.detalle21 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle21 > summary::before {
+    content: "💕";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle21[open] > summary::before {
+    content: "🤣";
+}
+
+.detalle22{
+    background-color: ;
+}
+
+.detalle22 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle22 > summary::before {
+    content: "👊";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle22[open] > summary::before {
+    content: "🤣";
+}
+
+.detalle23{
+    background-color: ;
+}
+
+.detalle23 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle23 > summary::before {
+    content: "🤣";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle23[open] > summary::before {
+    content: "🤣";
+}
+
+.detalle24{
+    background-color: ;
+}
+
+.detalle24 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle24 > summary::before {
+    content: "⚠️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle24[open] > summary::before {
+    content: "🧠";
+}
+
+.detalle25{
+    background-color: ;
+}
+
+.detalle25 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle25 > summary::before {
+    content: "⚽";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle25[open] > summary::before {
+    content: "⛳";
+}
+
+.detalle26{
+    background-color: ;
+}
+
+.detalle26 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle26 > summary::before {
+    content: "🕵️";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle26[open] > summary::before {
+    content: "🕵️";
+}
+
+.detalle27{
+    background-color: ;
+}
+
+.detalle27 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle27 > summary::before {
+    content: "🦸";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle27[open] > summary::before {
+    content: "🦸";
 }
