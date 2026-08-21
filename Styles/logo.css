@@ -1,0 +1,14 @@
+#logo {
+    flex: 1;
+    text-align: center;
+    position: static;
+    transform: perspective(500px)
+               translateY(8px)
+               rotateY('45deg');
+}
+
+#logo img {
+    width: auto;
+    height: 420px;
+    border-radius: 20px;
+}
