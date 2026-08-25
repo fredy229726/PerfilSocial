@@ -28,10 +28,10 @@
     #logo {
         width: 50%;
         height: 50%;
+        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        position: ;
         background-color: rgba(17, 196, 219, 0.856);
         border:  groove 1em gold;
         border-radius: 40px 10px;
