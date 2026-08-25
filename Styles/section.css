@@ -3,6 +3,8 @@ main {
 }
         
 section {
+    width: auto;
+    height: 50%;
     margin-bottom: 3%;
     background-color: ; 
     border-radius: 10px;
