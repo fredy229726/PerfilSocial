@@ -1,4 +1,4 @@
-.logo {
+#logo {
     flex: 1;
     text-align: center;
     position: static;
@@ -7,7 +7,7 @@
                rotateY('45deg');
 }
 
-.logo img {
+#logo img {
     width: auto;
     height: 400px;
     border-radius: 20px;
