@@ -1,5 +1,6 @@
 #logo {
-    width: 40%;
+    width: 80%;
+    max-width: 400px;
     height: auto;
     display: flex;
     justify-content: center;
