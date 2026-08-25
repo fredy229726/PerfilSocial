@@ -29,7 +29,7 @@
         text-align: left;
     }
 
-    .logo {
+    #logo {
         display: flex;
         width: 50%;
         height: 50%;
@@ -45,7 +45,7 @@
                    rotateY(10deg);
     }
 
-    .logo img {
+    #logo img {
         width: auto;
         height: 180px;
         border-radius: 20px;
