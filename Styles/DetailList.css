@@ -627,3 +627,25 @@ details[open] summary {
 .detalle27[open] > summary::before {
     content: "🦸";
 }
+
+.detalle28{
+    background-color: ;
+}
+
+.detalle28 > summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Patrick Hand SC";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle28 > summary::before {
+    content: "🎮";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle28[open] > summary::before {
+    content: "🎮";
+}
