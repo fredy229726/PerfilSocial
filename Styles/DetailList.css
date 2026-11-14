@@ -649,3 +649,55 @@ details[open] summary {
 .detalle28[open] > summary::before {
     content: "🎮";
 }
+
+.detalle29{
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(16, 167, 237, 0.923);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(54, 185, 205);
+}
+
+.detalle29 summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle29 summary::before {
+    content: "🐧";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle29[open] summary::before {
+    content: "📣";
+}
+
+.detalle30{
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(16, 167, 237, 0.923);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(54, 185, 205);
+}
+
+.detalle30 summary {
+    list-style: none;
+    font-weight: bold;
+    font-family: "Boogaloo";
+    color: #f9f4f7;
+    cursor: pointer;
+}
+
+.detalle30 summary::before {
+    content: "📣";
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.detalle30[open] summary::before {
+    content: "©️";
+}
