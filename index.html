@@ -47,7 +47,7 @@
                         <p>
                             Actualmente estoy estudiando la Ingeniería en Desarrollo de Software. Sinceramente, la burocracia es algo que no me gusta, y menos en las páginas web. Sin embargo, para mi propia seguridad, voy a agregar un aviso de derechos de autor (al menos en esta página), ya que estoy usando imágenes y audios que no son míos, aunque sea totalmente sin fines de lucro. No he tenido ningún problema, pero prefiero prevenir a futuro.<br>
                             En mis otras páginas habrá términos y condiciones, política de privacidad, política de cookies, etc. Las iré agregando gradualmente.<br>
-                            Aún me quedan cosas por actualizar, por ejemplo, mi top 3 de fripSide y mis listas de videojuegos.<br>
+                            Aún me quedan cosas por actualizar, por ejemplo, mis listas de videojuegos.<br>
                         </p>
                     </details>
                     <details class="detalle2">
@@ -1097,45 +1097,59 @@
                             <p>• Ado</p>
                             <details class="detalle11">
                                 <summary>Top 3</summary>
-                                <p>Aquí también voy a actualizar un poco el Top de Ado y posiblemente lo termine haciendo un Top 5 por la canción 'Love me Forever!' y aún falta que se estrene 'Shinka' que de momento su previa ya me gustó pero se estrena hasta Noviembre, 'Mounstro' que es el estreno más actual no me generó el suficiente impacto</p><br>
-                                <p>Siento que fue uno de los Top más complicados porque dejé varias canciones que me gustan un montón fuera del Top 3. Ado es mi cantante favorita dentro del J-Pop por sus canciones hechas a emociones como el desamor, frustración, etc. y su potencia y energía vocal como en la canción Tachiirikinshi, que puede pasar de la calma a un estribillo con muy buena potencia</p>
+                                <p>Siento que fue uno de los tops más complicados porque dejé varias canciones que me gustan un montón fuera del top 5. Ado es mi cantante favorita dentro del J-pop por sus canciones basadas en emociones como el desamor, la frustración, etc., y por su potencia y energía vocal. Un ejemplo es la canción Tachiirikinshi, que puede pasar de la calma a un estribillo con muchísima fuerza.</p>
                                 <p>🥇 Soldier Game</p>
                                 <div class="mi-reproductor">
                                     <audio id="musica-ado1">
                                         <source src="Ado-soldier-game.ogg" type="audio/ogg">
                                         <source src="Ado-soldier-game.mp3" type="audio/mpeg">
                                     </audio>
-                                    <button id="btn-ado1" class="boton-neon" onclick="tocarMusica('musica-ado1', 'btn-ado1')">
+                                    <button id="btn-ado1" class="boton-neon"
+                                        onclick="tocarMusica('musica-ado1', 'btn-ado1')">
                                         ▶️Escuchar
                                     </button>
                                 </div>
-                                <p>🥈 Tachiirikinshi</p>
+                                <p>🥈 Shinka</p>
                                 <div class="mi-reproductor">
                                     <audio id="musica-ado2">
+                                        <source src="Musica/Ado/Ado-Shinka.ogg" type="audio/ogg">
+                                        <source src="Musica/Ado/Ado-Shinka.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <button id="btn-ado2" class="boton-neon"
+                                        onclick="tocarMusica('musica-ado2', 'btn-ado2')">
+                                        ▶️Escuchar
+                                    </button>
+                                </div>
+                                <p>🥉 Tachiirikinshi</p>
+                                <div class="mi-reproductor">
+                                    <audio id="musica-ado3">
                                         <source src="Ado-Tachiirikinshi.ogg" type="audio/ogg">
                                         <source src="Ado-Tachiirikinshi.mp3" type="audio/mpeg">
                                     </audio>
-                                    <button id="btn-ado2" class="boton-neon" onclick="tocarMusica('musica-ado2', 'btn-ado2')">
+                                    <button id="btn-ado3" class="boton-neon"
+                                        onclick="tocarMusica('musica-ado3', 'btn-ado3')">
                                         ▶️Escuchar
                                     </button>
                                 </div>
-                                <p>🥉 Gira Gira</p>
+                                <p>🏅 Gira Gira</p>
                                 <div class="mi-reproductor">
-                                    <audio id="musica-ado3">
+                                    <audio id="musica-ado4">
                                         <source src="Ado-GiraGira.ogg" type="audio/ogg">
                                         <source src="Ado-GiraGira.mp3" type="audio/mpeg">
                                     </audio>
-                                    <button id="btn-ado3" class="boton-neon" onclick="tocarMusica('musica-ado3', 'btn-ado3')">
+                                    <button id="btn-ado4" class="boton-neon"
+                                        onclick="tocarMusica('musica-ado4', 'btn-ado4')">
                                         ▶️Escuchar
                                     </button>
                                 </div>
-                                <p>🏅 Love me forever!</p>
+                                 <p>🏅 Monstruo</p>
                                 <div class="mi-reproductor">
-                                    <audio id="musica-ado4">
-                                        <source src="Ado-Love me forever!.ogg" type="audio/ogg">
-                                        <source src="Ado-Love me forever!.mp3" type="audio/mpeg">
+                                    <audio id="musica-ado5">
+                                        <source src="Musica/Ado/Ado-Monstruo.ogg" type="audio/ogg">
+                                        <source src="Musica/Ado/Ado-Monstruo.mp3" type="audio/mpeg">
                                     </audio>
-                                    <button id="btn-ado4" class="boton-neon" onclick="tocarMusica('musica-ado4', 'btn-ado4')">
+                                    <button id="btn-ado5" class="boton-neon"
+                                        onclick="tocarMusica('musica-ado5', 'btn-ado5')">
                                         ▶️Escuchar
                                     </button>
                                 </div>
@@ -1317,7 +1331,64 @@
                                     </button>
                                 </div>
                             </details>
-                            <p>fripSide proximamente</p>
+                            <p>fripSide</p>
+                            <details class="detalle11">
+                                <summary>Top 3</summary>
+                                <p>Con el reciente estreno de Toaru Anbu no Item, creo que sí me gustaría hacerle su respectivo top 3 a uno de los íconos de la saga Toaru: fripSide. Personalmente, aquí no sé si referirme a ellos como dúo o trío porque han pasado por distintas fases (así es como se le llama a los tres cambios de vocalista que han tenido). Lo curioso es que en el top 3 hay una canción de cada fase, pero a una la voy a poner con todo y sus remakes.</p>
+                                <p>🥇 Invisible Wings (phase 3)</p>
+                                <div class="mi-reproductor">
+                                    <audio id="musica-fripSide1">
+                                        <source src="Musica/fripSide/Fripside-Invisible Wings.ogg" type="audio/ogg">
+                                        <source src="Musica/fripSide/Fripside-Invisible Wings.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <button id="btn-fripSide1" class="boton-neon"
+                                        onclick="tocarMusica('musica-fripSide1', 'btn-fripSide1')">
+                                        ▶️Escuchar
+                                    </button>
+                                </div>
+                                <p>🥈 Future Gazer (Phase 2)</p>
+                                <div class="mi-reproductor">
+                                    <audio id="musica-fripSide2">
+                                        <source src="Musica/fripSide/Fripside-future gazer.ogg" type="audio/ogg">
+                                        <source src="Musica/fripSide/Fripside-future gazer.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <button id="btn-fripSide2" class="boton-neon"
+                                        onclick="tocarMusica('musica-fripSide2', 'btn-fripSide2')">
+                                        ▶️Escuchar
+                                    </button>
+                                </div>
+                                <p>🥉 Magicaride (Aquí existen 3 versiones, una por cada phase porque la original es de phase 1 que es Nao pero voy poner las tres versiones)</p>
+                                <div class="mi-reproductor">
+                                    <audio id="musica-fripSide3">
+                                        <source src="Musica/fripSide/Fripside-magicaride (phase1).ogg" type="audio/ogg">
+                                        <source src="Musica/fripSide/Fripside-magicaride (phase1).mp3" type="audio/mpeg">
+                                    </audio>
+                                    <button id="btn-fripSide3" class="boton-neon"
+                                        onclick="tocarMusica('musica-fripSide3', 'btn-fripSide3')">
+                                        ▶️Escuchar
+                                    </button>
+                                </div>
+                                <div class="mi-reproductor">
+                                    <audio id="musica-fripSide4">
+                                        <source src="Musica/fripSide/Fripside-magicaride (Version 2016).ogg" type="audio/ogg">
+                                        <source src="Musica/fripSide/Fripside-magicaride (Version 2016).mp3" type="audio/mpeg">
+                                    </audio>
+                                    <button id="btn-fripSide4" class="boton-neon"
+                                        onclick="tocarMusica('musica-fripSide4', 'btn-fripSide4')">
+                                        ▶️Escuchar
+                                    </button>
+                                </div>
+                                <div class="mi-reproductor">
+                                    <audio id="musica-fripSide5">
+                                        <source src="Musica/fripSide/Fripside-magicaride (Version 2022).ogg" type="audio/ogg">
+                                        <source src="Musica/fripSide/Fripside-magicaride (Version 2022).mp3" type="audio/mpeg">
+                                    </audio>
+                                    <button id="btn-fripSide5" class="boton-neon"
+                                        onclick="tocarMusica('musica-fripSide5', 'btn-fripSide5')">
+                                        ▶️Escuchar
+                                    </button>
+                                </div>
+                            </details>
                             <p>No descarto artistas de los que solo he escuchado alguna que otra canción y aquí si puedo agregar otros artistas</p>
                             <p>• Akasaki</p>
                             <p>• Air Aoi</p>
@@ -1387,12 +1458,12 @@
                     </details>
                     <details class="detalle30">
                         <summary>Acerca de:</summary>
-                        <h2>Aviso de Uso Legítimo</h2>
+                        <h3 style="color: white;">Aviso de Uso Legítimo</h3>
                         <p>
                             Este sitio web es un portafolio personal, de carácter informativo y estrictamente sin fines de lucro. Todos los recursos multimedia, imágenes, audios y logotipos de terceros (incluyendo material de videojuegos, anime y música) mostrados en esta página son propiedad intelectual de sus respectivos autores, desarrolladores y productoras.<br>
                             Su uso aquí se realiza bajo el concepto de "Uso Justo" con fines de apreciación, comentario y muestra de habilidades de desarrollo web, sin intención de infringir los derechos de autor. Si eres el propietario legal de algún material gráfico o sonoro utilizado en este sitio y deseas que sea retirado, por favor contáctame y será eliminado inmediatamente.
                         </p><br>
-                        <h2>Fair Use/Copyright Disclaimer</h2>
+                        <h3 style="color: white;">Fair Use/Copyright Disclaimer</h3>
                         <p>
                             This website is a personal, informational portfolio and is strictly non-profit. All multimedia resources, images, audio, and third-party logos (including video game, anime, and music material) displayed on this page are the intellectual property of their respective authors, developers, and production companies.<br>
                             Their use here falls under the "Fair Use" doctrine for purposes of appreciation, commentary, and showcasing web development skills, with no intention of copyright infringement. If you are the legal owner of any graphical or audio material used on this site and wish for it to be removed, please contact me and it will be taken down immediately.
